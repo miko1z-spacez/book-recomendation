@@ -1,0 +1,154 @@
+.whole-bg {
+  background-color: #F0F0F0;
+}
+
+
+.mango {
+  background-color: hsl(0, 0%, 74%);
+  color: #6d0000;
+}
+
+.bg {
+  background-image: url('../images/dark.jpg');
+  /* ใส่ path ให้ถูกต้อง */
+  background-size: cover;
+  /* ขยายเต็มพื้นที่ */
+  background-position: center;
+  /* จัดกลาง */
+  background-repeat: no-repeat;
+}
+
+
+.head-text {
+  background-color: #fffef3;
+  color: #6d0000;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  /* Regular 400 */
+  color: #fff9a1;
+  /* สีตัวอักษร ตัวอย่าง */
+}
+
+h2 {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+  /* Light 300 */
+  color: #ffffff;
+  /* ตัวอย่าง: สีน้ำตาลเข้ม */
+}
+
+.dark-background {
+  background-color: #ff323297;
+}
+
+.h3-noto-thai {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  /* ปรับขนาดตามต้องการ */
+  margin-bottom: 0.5em;
+  color: #2E86C1;
+  /* เพิ่มช่องว่างด้านล่าง */
+}
+
+.h5-noto-thai {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  /* ปรับขนาดตามต้องการ */
+  margin-bottom: 0.5em;
+  color: #0e113a;
+}
+
+.hchang {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  /* ปรับขนาดตามต้องการ */
+  margin-bottom: 0.5em;
+  color: #0e113a;
+}
+
+
+
+/* รูปภาพใน accordion */
+.accordion-img {
+  display: block;
+  /* จัดให้อยู่เป็นบล็อก */
+  margin: 0 auto 15px auto;
+  /* จัดให้อยู่ตรงกลางและเว้นระยะด้านล่าง */
+  width: 25%;
+  /* กำหนดขนาดรูป */
+  border-radius: 10px;
+  /* ทำขอบรูปให้มนเล็กน้อย */
+}
+
+
+.essay-text {
+  text-indent: 2em;
+  /* ย่อบรรทัดแรกเข้าไป 2 ตัวอักษร M */
+  line-height: 1.8;
+  /* ระยะห่างระหว่างบรรทัดให้สบายตา */
+  font-size: 1rem;
+  /* ขนาดตัวอักษรมาตรฐาน */
+  color: #000;
+  /* สีตัวอักษรดำ */
+}
+
+.center-text {
+  display: block;
+  /* ทำให้เป็นบล็อกเต็มความกว้าง */
+  text-align: center;
+  /* จัดข้อความให้อยู่ตรงกลาง */
+  margin-top: 1em;
+  /* เว้นระยะบนเล็กน้อย */
+  margin-bottom: 1em;
+  /* เว้นระยะล่างเล็กน้อย */
+}
+
+
+.highlight-quote {
+  display: block;
+  /* ทำให้เป็นบล็อกเต็มความกว้าง */
+  text-align: center;
+  /* จัดข้อความให้อยู่ตรงกลาง */
+  margin-top: 1em;
+  /* เว้นระยะบน */
+  margin-bottom: 1em;
+  /* เว้นระยะล่าง */
+  font-family: 'Sriracha', cursive;
+  /* ใช้ฟอนต์ Sriracha */
+  color: red;
+  /* สีแดง */
+  font-size: 1.2rem;
+  /* ขนาดตัวอักษร */
+}
+
+
+
+.pillars-title {
+  font-family: 'Noto Sans Thai', sans-serif;
+  /* ใช้ฟอนต์เดิม */
+  color: #0e113a;
+  /* สีใหม่ (น้ำเงินสดใส) */
+  font-weight: bold;
+  /* ตัวหนา */
+  text-align: center;
+  /* จัดข้อความให้อยู่ตรงกลาง */
+  margin-top: 2rem;
+  /* เว้นระยะบน */
+  font-size: 1.5rem;
+  /* ขนาดตัวอักษร */
+}
+
+.conclusion {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  /* ปรับขนาดตามต้องการ */
+  margin-bottom: 0.5em;
+  color: #0e113a;
+}
